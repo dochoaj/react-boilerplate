@@ -1,0 +1,53 @@
+{
+  "name": "react-boilerplate",
+  "version": "16.0.0",
+  "description": "A simple react boilerplate made with <3",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development webpack-dev-server --config webpack/webpack.config.js --hot --inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dochoaj/react-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "boilerplate"
+  ],
+  "author": "Daniel Ochoa (@dochoaj)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dochoaj/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/dochoaj/react-boilerplate#readme",
+  "devDependencies": {
+    "babel": "6.3.13",
+    "babel-core": "6.1.18",
+    "babel-eslint": "7.1.1",
+    "babel-loader": "6.1.0",
+    "babel-plugin-add-module-exports": "0.1.2",
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-1": "^6.16.0",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb": "13.0.0",
+    "eslint-loader": "1.6.1",
+    "eslint-plugin-import": "^2.1.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.6.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "imports-loader": "0.7.0",
+    "json-loader": "0.5.4",
+    "node-sass": "^4.0.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "1.12.9",
+    "webpack-config": "6.2.1",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
