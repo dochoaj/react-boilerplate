@@ -1,6 +1,13 @@
 # react-boilerplate
 A simple React boilerplate with &lt;3
 
+# Features
+
+- React
+- Webpack
+- Linter
+
+Yes, just that. Keep it simple :)
 
 # How to...
 
