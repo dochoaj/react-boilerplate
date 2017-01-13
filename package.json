@@ -4,7 +4,7 @@
   "description": "A simple react boilerplate made with <3",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=development webpack-dev-server --config webpack/webpack.config.js --hot --inline"
+    "dev": "cross-env NODE_ENV=development node_modules/.bin/webpack-dev-server --config webpack/webpack.config.js --hot --inline"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "babel-preset-es2015": "6.3.13",
     "babel-preset-react": "^6.16.0",
     "babel-preset-stage-1": "^6.16.0",
+    "cross-env": "^3.1.4",
     "css-loader": "^0.26.1",
     "eslint": "^3.9.1",
     "eslint-config-airbnb": "13.0.0",
